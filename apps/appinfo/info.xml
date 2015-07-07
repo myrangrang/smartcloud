@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<info>
+    <id>popup</id>
+    <name>popup</name>
+    <description>Simple app that popup message every time the user enter the files app</description>
+    <version>0.3</version>
+    <licence>AGPL</licence>
+    <author>Eran Goldman-Malka</author>
+    <require>6</require>
+</info>

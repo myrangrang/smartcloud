@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<info>
+	<id>files_counter</id>
+	<name>Files Counter</name>
+	<licence>AGPL</licence>
+	<author>Masoud KHorram</author>
+	<require>6</require>
+	<shipped>false</shipped>
+	<description>This is app for Downloads Counter the files and folders</description>
+</info>

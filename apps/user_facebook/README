@@ -1,0 +1,11 @@
+This application is distributed WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU AFFERO GENERAL PUBLIC LICENSE for more details.
+
+Your feedback is greatly appreciated.
+
+
+Installation:
+Upload the user_facebook directory under the 'apps' directory of your ownCloud.
+Navigate to the 'Apps' page in Admin, click the 'Facebook user backend' in the 
+application list. Then click the 'Enable' button.

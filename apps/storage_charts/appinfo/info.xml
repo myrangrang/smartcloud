@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<info>
+	<id>storage_charts</id>
+	<name>ocStorage</name>
+	<description>Display graphs about the disk storage used by authenticated users ; using HighCharts non-commercial free library (www.highcharts.com)</description>
+	<version>2.3.5</version>
+	<license>AGPL</license>
+	<author>Xavier Beurois (www.djazz-lab.net)</author>
+	<require>4.5</require>
+	<shipped>true</shipped>
+</info>

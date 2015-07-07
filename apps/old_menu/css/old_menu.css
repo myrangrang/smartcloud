@@ -1,0 +1,58 @@
+@media screen and (min-width: 1100px){
+
+#expanddiv {background-color: #1d2d44;}
+#app-navigation + #app-content #controls{width: 74.2% !important;left: 24.3% !important;}
+#content {margin-top: 0px;}
+#content-wrapper {padding-left: 6% !important;width: 100% !important;}
+#navigation{
+    background-color: #1d2d44;
+    visibility:visible;
+    display: block !important;
+    position:fixed !important;
+    bottom:0px;
+    width: 6% !important;
+    top:45px;
+    max-height: 100% !important;
+    margin-top:0px !important;
+    -moz-user-select: none;
+    -moz-box-sizing: border-box;
+    box-shadow: 0px 0px 0px transparent;
+    border-radius: 0px;
+}
+#navigation a{display: inline-block; width: 100%; height: 100%; padding: 0 0;}
+#navigation #apps { margin-left:-10px; margin-top: 10px; }
+#navigation #apps ul{text-align: center;}
+#navigation .app-icon{ height: 1em;width: 1em; }
+#navigation a span{ display: block; font-size: 11px; }
+
+
+/***********************************************************
+*
+*       Core & default apps
+*
+************************************************************/    
+
+/* oc 7 compatibility */
+#leftcontent{width: 21% !important;}
+#rightcontent{width: 78% !important;}
+/* /oc 7 */
+  
+#app-navigation{width: 19.5% !important;}
+#bookmark_settings {width:19.5% !important;}
+.bookmarks_list, #firstrun {left:27% !important;}
+#navigation .wrapper {margin: auto;}
+#header .icon-caret {display:none;}
+
+table.multiselect thead{width: 76% !important; left: 24.3% !important; margin: 0px !important; }
+#slideshow{z-index: 5000 !important;}
+
+/***********************************************************
+*
+*       3rd Party Apps
+*
+************************************************************/
+
+/* owncloud-markdown (https://github.com/icewind1991/owncloud-markdown) */
+#md_preview {padding-left: 60px;}
+
+}

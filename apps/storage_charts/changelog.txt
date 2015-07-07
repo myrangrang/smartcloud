@@ -1,0 +1,6 @@
+2014-01-28 SQL - requests to build the pie about the Free-Used space ratio, have been rewritten
+2014-01-15 markdown formatting of the file README.md
+2013-11-18 New logo chart.png - (32x32 instead of 16x16, size=206 B instead of 441 B) http://pixlr.com/editor/
+2013-11-17 Settings - Refactored: popup and now it's working as expected
+2013-11-15 HTML 5 - Content-Security-Policy compliant: no more in-line js
+2013-11-13 Network-friendly - less bandwith consumption: more work done by client (.js) and less work done by server (.php)

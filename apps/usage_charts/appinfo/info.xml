@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<info>
+	<id>usage_charts</id>
+	<name>Usage Charts</name>
+	<description>Fork of storage_charts. Display usage charts, using HighCharts non-commercial free library (www.highcharts.com)</description>
+	<version>1.0.1</version>
+	<licence>AGPL</licence>
+	<author>Alan Vallance (arvllc.com) Orginally developed by Xavier Beurois (www.djazz-lab.net)</author>
+	<require>4</require>
+	<shipped>true</shipped>
+</info>

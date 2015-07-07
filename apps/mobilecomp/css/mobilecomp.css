@@ -1,0 +1,324 @@
+@media (max-width:1080px) {
+	#body-user #controls, #body-settings #controls {
+		padding-left: 0px;
+	}
+
+	#content-wrapper {
+		padding-left: 0px;
+	}
+
+	#navigation{
+		/* position: absolute !important;*/
+		visibility:hidden;
+		position:fixed;
+		bottom:auto !important;
+		width: 150px;
+		top:45px;
+		float:left;
+		margin-top:0px;
+		-moz-user-select: none;
+		-moz-box-sizing: border-box;
+		border-right: 1px solid rgb(51, 51, 51);
+		border-bottom: 1px solid rgb(51, 51, 51);
+		border-bottom-right-radius: 7px;
+		box-shadow: 0px 0px 7px rgb(29, 45, 68);
+		padding-left: 12px;
+	}
+
+	#navigation .wrapper {
+		margin: auto;
+	}
+
+	#navigation .icon {
+		display:inline;
+		width: 20px;
+		height: 20px;
+		margin-left: 2px;
+		padding: 0px;
+	}
+	#navigation li{
+		vertical-align: middle;
+	}
+	#navigation li:first-child {
+		padding-top: 10px;
+	}
+
+	#navigation li:first-child .icon{
+		padding-top: 0px;
+	}
+
+	#navigation li:last-child {
+		padding-bottom: 10px;
+	}
+
+	#navigation a span {
+		display:block;
+		height: 40px;
+	}
+	#navigation a span {
+		display: inline !important;
+		padding-bottom: 0px;
+		padding-left: 4px;
+		font-size:100%;
+		}
+		
+	#apps-management, #navigation .push {
+		height: 20px;
+	}
+}
+
+/***********************************************************************/
+
+
+/*************************************
+ * Kalender                          *
+ *************************************/
+
+/* Kalender-Knöpfe bei sehr kleinen Displays */
+@media (max-width:510px) {
+	#view {
+		float: left;
+		font-size: 12px;
+		height: 100%;
+		display: none;
+	}
+	#appsettings_popup {
+		left: 0px !important;
+		overflow-x: auto !important;
+	}
+
+}
+
+
+/*************************************
+ * formulaire de recherche & user    *
+ *************************************/
+@media (min-width:1081px) {
+	#opensearchbutton {
+		display: none;
+	}
+	
+	#closesearchbutton {
+		display: none;
+	}
+	#searchboxpanel {
+		display: block;
+	}
+}
+
+@media (max-width:1080px) {	
+	#opensearchbutton {
+		/* display: inline; */
+		display: none;
+		background-image: url(../core/img/actions/search.svg?2012-12-19T21:23:20Z);
+		background-position:center center;
+		background-repeat: no-repeat;
+		margin: 0.5em;
+		margin-top: 1em;
+		height: 1.5em;
+		width: 1.5em;
+
+	}
+	
+	#closesearchbutton {
+		/* display: inline; */
+		display: none;	
+		background-image: url(../core/img/actions/delete.svg?2012-12-19T21:23:20Z);
+		background-position:center center;
+		background-repeat: no-repeat;
+		height: 1.8em;
+		width: 1.8em;
+		margin-top: 0.5em;
+	}
+	
+	#searchbox {
+		/* display: inline; */
+		display: none;	s
+	}
+	
+	#searchresults {
+		left: 0 !important;
+		right: 0 !important;
+		width: auto !important;
+		border-bottom-left-radius: 0 !important;
+	}
+	
+	#settings {
+	margin-right: 3em;
+	}
+
+}
+
+
+
+
+/*************************************
+ * files app                         *
+ *************************************/
+
+@media (max-width:1080px) {
+
+	/* Leiste oben wandert nicht mit nach unten */
+	#controls {
+		position: absolute !important;
+	}
+
+
+	/* Kleinere Fensterbreite -> kein scrollen notwendig */
+	#filestable, #controls {
+			min-width: 320px !important;
+	}
+
+
+	/* Kleinere Fensterbreite -> kein scrollen notwendig */
+	#fileList tr td.filename a.name label {
+			position: relative !important;
+	}
+	
+	.actions {
+		width: 90% !important;
+	}
+
+	
+	/* Kleine Dateiaktions-Symbole einblenden */
+	#fileList a.action {
+			padding: 17px 8px !important;
+			display: inline-block !important;
+			opacity: 0.5 !important;
+			font-size: 0px;
+			margin-left: 0px !important;
+	}
+	.action[data-action="Edit"] { 
+		font-size: 16px !important; /*Needs content to be aligned, should use an image*/
+	}
+	
+	#fileList a.action.delete {
+		position: relative !important;
+		padding: 0px 6px 0px !important;
+		top: 5px;
+	}
+
+
+	/* Kein Datum  */
+    #content #headerDate {
+        display: none;
+    }
+	
+	/* Kein Änderungsdatup aber Löschensymbol */
+	table th#headerDate, table td.date {
+		font-size: 0px;
+	}
+	
+	/* Keine Größe  */
+	.filesize, #headerSize {
+			display: none !important;
+	}
+	
+	/* Symbole mittig */
+	.fileactions {
+			background-color: white; /*on really small screens and long item names, these overlap*/
+			top: 0 !important;
+	}
+	
+	/* Dateiauswahl: Abstand und Position*/
+	table.multiselect thead {
+		position: absolute !important;
+		top: -50px !important;
+		padding-left: 50% !important;
+
+	}
+	/* Datei teilen - Dialogdarstellung */ 
+	#dropdown {
+    left: 0px !important;
+	}
+	#dropdown input[type="text"], #dropdown input[type="password"] {
+		 onfocus="this.select()";
+	}
+
+
+}
+
+
+/*************************************
+ * Kontakte                          *
+ *************************************/
+@media (max-width:1080px) {
+	
+	/* Adressbuch Einstellungen Icons */
+	
+	.addressbooklist .actions {
+		position: relative !important;
+		margin-left: 50px !important;
+	}
+
+	/* Scrollen der Konaktliste
+	 * TODO: Funktioniert bei einigen Browsern nicht
+	 */
+	#contactlist tbody > tr > td > a.delete {
+		display: none !important;
+	}
+	input[type="text"], input[type="password"], input[type="search"], input[type="number"], input[type="email"], input[type="url"], input[type="time"], textarea, select, button, .button, #quota, .pager li a {
+		margin: 0 !important;
+	}
+
+	/*
+	.video {
+		margin-top: 15px !important;
+		margin-left: 0!important;
+		margin-bottom: 0!important;
+		width: 100%!important;
+		height: 100%!important;
+	}
+	*/
+
+	
+	/* Kein Konaktfoto anzeigen */
+	#photowrapper {
+		display: none !important;
+	}
+
+
+	
+	/* Oberer Bereich - Kontaktgruppen und Einstellungssymbol */
+	#app-navigation {
+		position: absolute;
+		height: 15em !important;
+		top: 0px !important;
+		left: 0 !important;
+		right: 0 !important;
+		width: auto !important;
+		overflow: auto;
+	}
+	
+	#app-navigation span.utils button {
+		display: block;
+	}
+	
+	/* Oberer Bereich - Konakteinstellungen */
+	#app-navigation #app-settings {
+		position: absolute;
+		width: 100%;
+		max-height: 15em;
+		
+	}
+	
+	
+	/* Unterer Bereich - Kontaktliste */
+	#app-content {
+		position: absolute;
+		top: 15em !important;
+		bottom: 0px !important;
+		left: 0 !important;
+		right: 0px !important;
+		width: auto !important;
+		height: auto !important;
+		overflow: scroll !important;
+	}
+    #contactlist {
+		overflow: auto !important;
+		margin-top: 0px !important;
+		width: 100% !important;
+    }
+	
+}
+

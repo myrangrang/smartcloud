@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<info>
+
+  <id>mobilecomp</id>
+  <name>MobileCompTheme</name>
+  <description>Theme for devices with less than 1080px. Change the layout and minify the bar. You can show the bar by click on the owncloud logo.</description>
+  <version>0.0.5</version>
+  <licence>AGPL</licence>
+  <author>m6n</author>
+  <require>6</require>
+  
+ 
+</info>

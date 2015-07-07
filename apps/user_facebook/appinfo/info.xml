@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+	<id>user_facebook</id>
+	<name>Facebook user backend</name>
+	<description>Allow login through Facebook</description>
+	<version>0.2.1</version>
+	<licence>AGPL</licence>
+	<author>Victor Dubiniuk</author>
+	<require>4</require>
+	<types>
+		<authentication/>
+	</types>
+</info>
+

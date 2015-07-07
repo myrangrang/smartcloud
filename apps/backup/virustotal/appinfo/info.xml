@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+    <id>virustotal</id>
+    <name>VirusTotal</name>
+    <description>Check for a file score against virustotal.com.</description>
+    <version>1.0</version>
+    <licence>AGPL</licence>
+    <author>Xavier Mertens (xavier at rootshell dot be)</author>
+    <require>5</require>
+    <types>
+      <filesystem/>
+    </types>
+    <version>1.0</version>
+</info>

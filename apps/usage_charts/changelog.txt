@@ -1,0 +1,15 @@
+2014-04-28 Work-around for Pie Chart not displaying correctly in admin view. Added a order by in mysql query to have the total size of the chart be whatever is the biggest quota for all users. To make this work-around work. Put the OC admin user's quota to the total space you want to be allocated to all OC users. Will find a better way to calc this. But this will work for now.
+2014-04-27 Correct versioning so that this plugin can be enabled in OC6. Correct one reference to settings.svg.
+
+ToDo/Roadmap:
+-Update to use Google Charts so that one doesn't have to worry with the HighCharts usage rights.
+-Correct usage calculation when using Quotas.
+
+
+Original Log:
+2014-01-28 SQL - requests to build the pie about the Free-Used space ratio, have been rewritten
+2014-01-15 markdown formatting of the file README.md
+2013-11-18 New logo chart.png - (32x32 instead of 16x16, size=206 B instead of 441 B) http://pixlr.com/editor/
+2013-11-17 Settings - Refactored: popup and now it's working as expected
+2013-11-15 HTML 5 - Content-Security-Policy compliant: no more in-line js
+2013-11-13 Network-friendly - less bandwith consumption: more work done by client (.js) and less work done by server (.php)
